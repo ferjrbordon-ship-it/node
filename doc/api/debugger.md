@@ -37,14 +37,7 @@ the `NODE_INSPECT_RESUME_ON_START` environment variable to `1`.
 ```console
 $ cat myscript.js
 // myscript.js
-global.x = 5;
-setTimeout(() => {
-  debugger;
-  console.log('world');
-}, 1000);
-console.log('hello');
-$ NODE_INSPECT_RESUME_ON_START=1 node inspect myscript.js
-< Debugger listening on ws://127.0.0.1:9229/f1ed133e-7876-495b-83ae-c32c6fc319c2
+globa
 < For help, see: https://nodejs.org/en/docs/inspector
 <
 connecting to 127.0.0.1:9229 ... ok
